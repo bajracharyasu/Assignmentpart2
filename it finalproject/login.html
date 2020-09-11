@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Queries</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body>
+	<div id="container">
+		<div class="navbar">
+			<h3>Novel Land</h3>
+			<a href="Contact.html" target="+new window">Contact</a>
+			<a href="login.html" target="+new window">FAQ</a>
+			<a href="blog.html" target="+new window">Books</a>
+			<a href="About.html" target="+new window">About Us</a>
+			<a href="index.html" target="+new window"> Home</a>
+		</div>
+		<div class="qurey">
+			<form name="myform" onsubmit="return(validate());">
+				<fieldset>
+					<caption>Any Question ??</caption><br>
+					<table cellspacing="1px" cellpadding="1px">
+						<tr>
+							<td>First Name</td>
+							<td>
+								<input type="text" name="FName">
+							</td>
+						</tr>
+						<tr>
+							<td>Last Name</td>
+							<td>
+								<input type="text" name="LName">
+							</td>
+						</tr>
+						<tr>
+							<td>Email</td>
+							<td>
+								<input type="text" name="Email">
+							</td>
+						</tr>
+						<tr>
+							<td>Suggestions</td>
+							<td>
+								<textarea rows="20" cols="25"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td><input type="submit" name="Submit" value="submit"></td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+		</div>
+		<div class="footer">
+			<div class="footer1">
+				<h5>Novel Land</h5>
+				<p>Novel Land is a place where you can search any book you like and know what the story line is? Purchase the book. Read it online. Novel land is located in Dillibazar, Kathmandu, Nepal. You can call us, email us for purchasing books.We have all the geners and all the latest books in the market.</p>
+			</div>
+			<div class="footer2">
+				<h5>Follow us in:</h5>
+				<div class="row1">
+					<h5>Facebook</h5>
+				</div>
+				<div class="row2">
+					<h5>Instagram</h5>
+				</div>
+				<div class="row3">
+					<h5>Twitter</h5>
+				</div>
+			</div>
+			<div class="footer3">
+				<h5>Quick Escape:</h5>
+				<a href="Contact.html" target="+new window">Contact</a><br>
+				<a href="login.html" target="+new window">FAQ</a><br>
+				<a href="blog.html"target="+new window">Books</a><br>
+				<a href="About.html" target="+new window">About Us</a><br>
+				<a href="index.html" target="+new window"> Home</a><br>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	function validate(){
+		if(document.myform.FName.value == ""){
+			alert("Please provide your first name");
+			document.myform.FName.focus();
+			return false;
+		}
+		if(document.myform.LName.value == ""){
+			alert("Please provide your last name");
+			document.myform.LName.focus();
+			return false;
+		}
+		if(document.myform.Email.value == ""){
+			alert("Please provide your email");
+			document.myform.Email.focus();
+			return false;
+		}
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>question no 5</title>
+	<script type="text/javascript">
+		function user(){
+			if(isNan(document.f1.PhoneNo.value)){
+				alert("It is not a number");
+				return false;
+			}
+			else{
+				alert("It is a number");
+				return true;
+			}
+		}
+		function pass(){
+			if(document.f2.Pw.value == document.f2.Pw2.value){
+				alert("The password is correct");
+				return true;
+			}
+			else{
+				alert("The password is incorrect");
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+	<h5>User Name</h5>
+	<form name="f1" onsubmit="user()">
+		<input type="text" name="PhoneNo" id="No">
+		<button type="Submit">Submit</button>
+	</form>
+	<h5>Password</h5>
+	<form name="f2" onsubmit="pass()">
+		enter your password: <br>
+		<input type="password" name="Pw">
+		<br>
+		enter your password again:
+		<br>
+		<input type="password" name="Pw2">
+		<button type="Submit">Submit</button>
+	</form>
+</body>
+</html>

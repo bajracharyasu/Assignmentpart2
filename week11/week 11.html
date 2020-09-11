@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WEEK 11</title>
+</head>
+<body>
+	<h3>Question 1</h3>
+	<script type="text/javascript">
+		s1 = 10;
+		s2 = "Sudeepa"
+		s3 = s1/30;
+		document.write("<br> Numeric value: " +s1)
+		document.write("<br> String: " +s2)
+		document.write("<br> Float:  " +s3)
+	</script>
+
+	<h3>Question 2</h3>
+	<script type="text/javascript">
+		var n1 = prompt("Enter your name: ")
+		var n2 = prompt("Enter your id number: ")
+		document.write("<br> Name: " +n1)
+		document.write("<br> Id: " +n2)
+		alert("+n1")
+		alert(+n2)
+	</script>
+	<h3>Question 3</h3>
+	<script type="text/javascript">
+		var n1 = prompt("Enter your marks: ")
+		document.write("<br> Marks: " +n1)
+		if(n1 >= 80 && n1 <= 100)
+			document.write("Distincton")
+		else if(n1 >= 60 && n1 <= 80)
+			document.write("First Division")
+		else if(n1 >= 50 && n1 <= 60)
+			document.write("Second Division")
+		else if(n1 >= 40 && n1 < 50)
+			document.write("Thrid Division")
+		else if(n1 <40)
+			document.write("Fail")
+		else
+			document.write("Please enter your marks again.")
+	</script>
+	<h3>Question 4</h3>
+	<script type="text/javascript">
+		var day = prompt("Enter a number between 1 to 7:");
+		document.write("<br> Day: " +day)
+		switch(day){
+			case "1":
+			document.write("<br> Sunday")
+			break
+			case "2":
+			document.write("<br> Monday")
+			break
+			case "3":
+			document.write("<br> Tuesday")
+			break
+			case "4":
+			document.write("<br> Wednesday")
+			break
+			case "5":
+			document.write("<br> Thrusday")
+			break;
+			case "6":
+			document.write("<br> Friday")
+			break
+			case "7":
+			document.write("<br> Saturday")
+			break
+			default:
+			document.write("<br> Invalid Input!!")
+			break
+		}
+	</script>
+	<h3>Question 6</h3>
+	<script type="text/javascript">
+		for(i=1; i<=10; i++){
+			var count = 5 * i;
+			document.write("<br> 5 *  i=" +count)
+		}
+	</script>
+	<h3>Question 7</h3>
+		<script type="text/javascript">
+		for(i = 1; i<= 4; i++){
+			document.write("<br> s.n. Name")
+			document.write("<br>" +i)
+			document.write("<br> Name " +i)
+		}
+	</script>
+	<h3>Question 8 in alert box</h3>
+	<script type="text/javascript">
+		var myColor = ["Red", "Green", "White", "Black"]
+		alert(myColor.toString())
+		alert(myColor.join())
+		alert(myColor.join("+"))
+	</script>
+	<h3>Question 9 in alert box</h3>
+	<script type="text/javascript">
+		var a = [1,2,3,4]
+		s = 0;
+		p = 1;
+		i;
+		for(i=0; i<a.length; i +=1){
+			s += a[i]
+			p *= a[i]
+		}
+		alert("Sum: " +s+"Product: " +p)
+	</script>
+</body>
+</html>

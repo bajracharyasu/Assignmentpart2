@@ -1,0 +1,121 @@
+.container{
+	height: 100%;
+	width: 100%;
+	
+}
+.navbar{
+	height: 250px;
+	width: 650px;
+}
+.navbar img{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.navbar p{
+	font-size: 12px;
+	font-family: serif;
+	color: red;
+	float: right;
+}
+.navbar a{
+	float: right;
+}
+.main{
+	height:550px;
+	width: 650px;
+}
+.P1{
+	height:250px;
+	width: 300px;
+	background-color: lightgrey;
+	float: left;
+	margin: 10px;
+}
+.P1 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.P1 p{
+	float: right;
+}
+.P2{
+	height:250px;
+	width: 300px;
+	background-color: lightgrey;
+	float: right;
+	margin: 10px;
+}
+.P2 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.P2 p{
+	float: right;
+}
+.P3{
+	height:250px;
+	width: 300px;
+	background-color: lightgrey;
+	float: left;
+	margin: 10px;
+}
+.P3 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.P3 p{
+	float: right;
+}
+.P4{
+	height:250px;
+	width: 300px;
+	background-color: lightgrey;
+	float: right;
+	margin: 10px;
+}
+.P4 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.P4 p{
+	float: right;
+}
+.footer{
+	height:450px;
+	width:600px;
+}
+.footer1{
+	height: 100px;
+	width: 150px;
+	float: left;
+	margin: 10px;
+}
+.footer2{
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin: 10px;
+}
+.footer2 p{
+	font-size: 10px;
+	font-family: sans-serif;
+}
+.footer3{
+	height:200px;
+	width: 200px;
+	float: right;
+	margin: 10px;
+}
+.footer3 img{
+	height:100px;
+	width: 100px;
+	float: left;
+}
+.footer3 p{
+	float: right;
+}
