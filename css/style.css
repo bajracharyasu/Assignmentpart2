@@ -1,0 +1,461 @@
+#container{
+	height:100%;
+	width:100%;
+}
+.navbar{
+	height:70px;
+	width:100%;
+	overflow: hidden;
+	background-color: #5c659e;
+}
+.navbar h3{
+	float: left;
+	font-size: 25px;
+	color: #8c9efa;
+	font-family: "Consolas";
+}
+.navbar a{
+	float:right;
+	padding: 10px;
+	color: white;
+}
+.container{
+	height:75%;
+	width: 100%;
+	margin: 5px;
+	position: relative;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.row{
+	height:750px;
+	width: 100%;
+	background-color: lightgrey;
+}
+.left{
+	height: 600px;
+	width: 30%;
+	background-color: white;
+	padding: 5px;
+	margin: 5px;
+	float: left;
+}
+.left h5{
+	font-family: "Consolas";
+	color:#463f70;
+	font-size: 18px;
+}
+.left img{
+	height: 100px;
+	width: 100px;
+}
+.left p{
+	font-family: serif;
+	font-size: 15px;
+	color: blue;
+}
+.middle{
+	height:650px;
+	width:40%;
+	background-color: white;
+	margin: 10px;
+	padding: 5px;
+	float:left;
+}
+.middle h5{
+	font-family: "Consolas";
+	color:#463f70;
+	font-size: 18px;
+}
+.middle img{
+	height: 100px;
+	width: 100px;
+}
+.middle p{
+	font-family: "Consolas"
+	font-size: 15px;
+	color: blue;
+}
+.right{
+	height: 600px;
+	width: 25%;
+	background-color: white;
+	padding: 5px;
+	float: right;
+	margin: 5px;
+}
+.right h5{
+	font-family: "Consolas";
+	color:#463f70;
+	font-size: 18px;
+}
+.right img{
+	height: 100px;
+	width: 100px;
+}
+.right p{
+	font-family: serif;
+	font-size: 15px;
+	color: blue;
+}
+.footer{
+	height:300px;
+	width:100%;
+	background-color: #37383b;
+	margin: 5px;
+	padding: 5px;
+}
+.footer1{
+	height: 100px;
+	width: 30%;
+	float: left;
+}
+.footer1 h5{
+	width:30%;
+	font-family: "Consolas";
+	color:#e49ffc;
+	font-size: 20px;
+}
+.footer1 p{
+	font-family: serif;
+	font-size: 18px;
+	color: white;
+}
+.footer2{
+	float: right;
+	width:30%;
+}
+.footer2 h5{
+	font-size: 20px;
+	font-family:"Consolas";
+	color: #e49ffc;
+}
+.row1{
+	background-color: #3749e6;
+	width:100px;
+}
+.row1 h5{
+	color: white;
+	font-size: 18px;
+}
+.row2{
+	background-color: #6b3760;
+	width:100px;
+}
+.row2 h5{
+	color: white;
+	font-size: 18px;
+}
+.row3{
+	background-color: #37acf0;
+	width:100px;
+}
+.row3 h5{
+	color: white;
+	font-size: 18px;
+}
+.footer3{
+	float: right;
+	width: 30%;
+}
+.footer3 h5{
+	font-family: "Consolas";
+	color:#e49ffc;
+	font-size: 20px;
+}
+.footer a{
+	color: white;
+	font-family: "Consolas";
+	font-size: 18px;
+}
+.contain{
+	height: 450px;
+	width: 100%;
+}
+.contain img{
+	height: 450px;
+	width: 100%;
+}
+.para{
+	background-color: lightgrey;
+	height:650px;
+	width: 100%;
+}
+.rightcolumn{
+	background-color: white;
+	height: 350px;
+	width: 25%;
+	float: right;
+	margin: 7px;
+}
+.cat{
+	background-color: #96b0e0;
+	padding: 10px;
+}
+.cat p{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #573970;
+}
+.list{
+	background-color: white;
+}
+.list ul li{
+	font-family: "Consolas";
+	font-size: 20px;
+}
+.para img{
+	height:200px;
+	width: 100%;
+}
+.leftcolumn{
+	height: 550px;
+	width: 70%;
+	background-color: white;
+	float: left;
+	margin: 7px;
+}
+.leftcolumn p{
+	font-family: "Consolas";
+	font-size: 18px;
+	color: #573970;
+}
+.leftcolumn img{
+	height: 200px;
+	width: 100%;
+	margin: 5px;
+}
+.para2{
+	background-color: lightgrey;
+	height: 650px;
+	width: 100%;
+	margin: 7px;
+}
+.book{
+	background-color: white;
+	height: 600px;
+	width: 100%;
+	margin: 5px;
+	padding: 5px;
+}
+.book1{
+	float: left;
+	margin: 5px;
+}
+.book1 img{
+	height:150px;
+	width: 270px;
+	float: left;
+}
+.book1 p{
+	font-family: "Consolas";
+	font-size: 15px;
+	color:#4e5bd4;
+	
+}
+.book1 button{
+	height: 50px;
+	width: 70px;
+	color: white;
+	background-color: #2f3782;
+}
+.book2{
+	float: left;
+}
+.book2 img{
+	height:150px;
+	width: 270px;
+	float: left;
+	margin: 5px;
+}
+.book2 p{
+	font-family: "Consolas";
+	font-size: 15px;
+	color:#4e5bd4;
+
+}
+.book2 button{
+	height: 50px;
+	width: 70px;
+	color: white;
+	background-color: #2f3782;
+}
+.book3{
+	float: left;
+}
+.book3 img{
+	height:150px;
+	width: 270px;
+	float: left;
+	padding: 5px;
+}
+.book3 p{
+	font-family: "Consolas";
+	font-size: 15px;
+	color:#4e5bd4;
+}
+.book3 button{
+	height: 50px;
+	width: 70px;
+	color: white;
+	background-color: #2f3782;
+}
+.book4{
+	float: left;
+}
+.book4 img{
+	height:150px;
+	width: 270px;
+	float: left;
+	padding: 5px;
+}
+.book4 p{
+	font-family: "Consolas";
+	font-size: 15px;
+	color:#4e5bd4;
+}
+.book4 button{
+	height: 50px;
+	width: 70px;
+	color: white;
+	background-color: #2f3782;
+}
+.book5{
+	float: left;
+}
+.book5 img{
+	height:150px;
+	width: 270px;
+	float: left;
+	padding: 5px;
+}
+.book5 p{
+	font-family: "Consolas";
+	font-size: 15px;
+	color:#4e5bd4;
+}
+.book5 button{
+	height: 50px;
+	width: 70px;
+	color: white;
+	background-color: #2f3782;
+}
+.con{
+	height: 550px;
+	width: 100%;
+	background-color: lightgrey;
+	margin: 5px;
+	padding: 5px;
+}
+.tact{
+	height: 530px;
+	width: 98%;
+	background-color: white;
+	margin: 5px;
+	padding: 5px;
+}
+.tact p{
+	font-family: "Consolas";
+	font-size: 15px;
+	color: #231942;
+}
+.tact img{
+	height:250px;
+	width: 50%;
+}
+.qurey{
+	height: 550px;
+	width: 100%;
+	background-color: lightgrey;
+}
+.qurey form{
+	height: 500px;
+	width: 70%;
+	font-family: "Consolas";
+	font-size: 18px;
+}
